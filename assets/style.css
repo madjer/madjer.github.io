@@ -46,6 +46,11 @@
   
 }
 
+@font-face {
+  font-family: Pixeled;
+  src: url('fonts/Pixeled.ttf');
+  }
+
 body {
   margin: 0;
   font: 100% / 1.5 Raleway, sans-serif;
@@ -60,4 +65,5 @@ h2 {
   font-size: 3.5rem;
   font-weight: 300;
   animation: lights 5s 750ms linear infinite;
+  font-family: Pixeled;
 }
